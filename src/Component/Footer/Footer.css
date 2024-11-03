@@ -1,0 +1,31 @@
+footer{
+    @apply w-full pt-[116px] py-[120px] bg-raja
+}
+
+.licence{
+    @apply font-inter font-normal text-[16px] text-[#fff] leading-[26px] mt-4 text-center
+}
+
+.footerLinks{
+    @apply py-9 font-inter font-normal text-[16px] text-[#fff] leading-[26px] flex justify-center gap-[45px]
+}
+
+.footerLinks a{
+    @apply duration-300
+}
+
+.footerLinks a:hover{
+    @apply text-shenapoti
+}
+
+.footerSocials{
+    @apply mt-9 flex gap-20 justify-center font-cormorant font-medium text-lg text-[#fff] leading-[26px]
+}
+
+.footerSocials a{
+    @apply duration-300
+}
+
+.footerSocials a:hover{
+    @apply text-shenapoti
+}

@@ -1,0 +1,15 @@
+.companyLogoSection{
+    @apply py-[120px]
+}
+
+.logoRow{
+    @apply  flex justify-center items-center flex-wrap gap-[30px]
+}
+
+.logoRow li{
+    @apply cursor-pointer duration-300
+}
+
+.logoRow li:hover{
+    @apply shadow-[5px_5px_10px_#000]
+}

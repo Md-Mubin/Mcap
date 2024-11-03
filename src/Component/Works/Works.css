@@ -1,0 +1,19 @@
+.worksSection{
+    @apply py-[120px]
+}
+
+.worksSection h1{
+    @apply w-[450px] text-center m-auto font-cormorant font-medium text-raja text-[80px] leading-[70px]
+}
+
+.worksSection h1 span{
+    @apply italic underline underline-offset-8 decoration-[5px]
+}
+
+.worksRow{
+    @apply w-[600px] m-auto mt-12 mb-16 flex justify-center gap-12 font-inter font-normal text-raja text-lg leading-[36px]
+}
+
+.worksRow li{
+    @apply  cursor-pointer duration-300 focus:text-shenapoti
+}
