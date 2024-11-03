@@ -12,15 +12,15 @@ import Blogs from '../Component/Blogs/Blogs'
 const Home = () => {
   return (
     <>
-    <Banner/>
-    <Company_logo/>
-    <CapturePeople/>
-    <Awards/>
-    <Works/>
-    <Clients/>
-    <PricingPlans/>
-    <Memorable/>
-    <Blogs/>
+      <Banner />
+      <Company_logo />
+      <CapturePeople />
+      <Awards />
+      <Works />
+      <Clients />
+      <PricingPlans />
+      <Memorable />
+      <Blogs />
     </>
   )
 }

@@ -1,0 +1,39 @@
+.awardsSection{
+    @apply py-[150px]
+}
+
+.awardsRow{
+    @apply  flex justify-end  gap-[60px]
+}
+
+.awardsHeadRow{
+    @apply h-[380px] flex
+}
+
+.awardsHead{
+    @apply w-[314px] font-cormorant font-medium text-[80px] text-raja leading-[62px] mr-[-90px] z-10
+}
+
+.awardsHead span{
+    @apply italic underline underline-offset-8 decoration-[5px]
+}
+
+.box1{
+    @apply w-[200px] bg-[#c19d9d]
+}
+
+.box2{
+    @apply w-[370px] bg-[#C4C4C4]
+}
+
+.allAwards{
+    @apply w-[230px] flex flex-col justify-center 
+}
+
+.allAwards li{
+    @apply font-DMsans font-normal text-xl text-raja leading-[40px] duration-300 cursor-pointer
+}
+
+.allAwards li:hover{
+    @apply font-bold text-shenapoti
+}

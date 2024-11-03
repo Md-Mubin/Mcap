@@ -1,0 +1,54 @@
+.bannerSection{
+    @apply w-full pb-[100px] flex relative bg-[url('images/banner.png')]
+}
+
+.headRow{
+    @apply mt-[148px] ml-[670px]
+}
+.headRow h1{
+    @apply w-[485px] font-cormorant font-medium text-[96px] text-[#fff] leading-[80px]
+}
+
+.headRow h1 span{
+    @apply italic underline underline-offset-8 decoration-4 
+}
+
+.headRow p{
+    @apply w-[450px] mt-10 font-DMsans font-normal text-lg text-[#fff]
+}
+
+.bannerExtraPart{
+    @apply mt-[76px] flex justify-between items-end
+}
+
+.signature h2{
+    @apply font-oswald font-semibold text-[30px] text-[#fff]
+}
+
+.signature li{
+    @apply mt-[6px] font-inter font-normal text-[16px] text-[#fff]
+}
+
+.boxPart{
+    @apply relative
+}
+
+.emptyBox{
+    @apply w-[470px] h-[300px] bg-[#C4C4C4]
+}
+
+.boxPart img{
+    @apply absolute top-[40px] left-[-80px]
+}
+
+.toogleBar{
+    @apply flex flex-col gap-20 font-cormorant font-medium text-lg text-[#fff] leading-[26px] absolute right-[120px] top-[282px] rotate-180
+}
+
+.toogleBar a{
+    @apply duration-300 rotate-90
+}
+
+.toogleBar a:hover{
+    @apply text-shenapoti
+}
